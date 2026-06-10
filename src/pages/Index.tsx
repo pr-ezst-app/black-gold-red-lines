@@ -3,7 +3,9 @@ import Icon from "@/components/ui/icon";
 
 const HERO_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/files/15c00354-1e98-4e8e-a09d-bdefccb09b4c.jpg";
 const LEDUC_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/files/94ffbffa-0c61-46b2-8b97-e5414b42db7a.jpg";
-const BEADWORK_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/files/8325ad1c-ed8a-464a-9c95-1f4e4cec1856.jpg";
+const PETRO_BEADWORK_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/fe9732bb-4761-4292-8603-3452f0f5bf04.png";
+const OPEC_CARTOON_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/6a381d61-2025-4c97-963c-ed443c9a0549.png";
+const BERGER_REPORT_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/f72202c1-61a1-48ac-8f9b-d5631ee28a3b.png";
 
 const timelineEvents = [
   { year: "1947", title: "Leduc No. 1 Discovery", desc: "Imperial Oil strikes oil near Leduc, Alberta — igniting Canada's modern oil era.", color: "#D4A017" },
@@ -37,7 +39,7 @@ const sections = [
     artifact: { name: "Chenoa Plain, Untitled Beadwork of Petro-Canada Logo", year: "2022" },
     question: "What consequences followed the global energy crisis?",
     icon: "Zap",
-    img: BEADWORK_IMG,
+    img: PETRO_BEADWORK_IMG,
   },
   {
     id: "conflicts",
@@ -49,7 +51,7 @@ const sections = [
     artifact: { name: "National Energy Program Document", year: "1980" },
     question: "Who should control Canada's natural resources — provinces or the federal government?",
     icon: "Flame",
-    img: LEDUC_IMG,
+    img: OPEC_CARTOON_IMG,
   },
   {
     id: "trade",
@@ -73,7 +75,7 @@ const sections = [
     artifact: { name: "Berger Report", year: "1977" },
     question: "How should governments balance economic development and Indigenous rights?",
     icon: "Trees",
-    img: BEADWORK_IMG,
+    img: BERGER_REPORT_IMG,
   },
 ];
 
