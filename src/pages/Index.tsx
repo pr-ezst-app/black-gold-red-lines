@@ -6,6 +6,8 @@ const LEDUC_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e
 const PETRO_BEADWORK_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/fe9732bb-4761-4292-8603-3452f0f5bf04.png";
 const OPEC_CARTOON_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/6a381d61-2025-4c97-963c-ed443c9a0549.png";
 const BERGER_REPORT_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/f72202c1-61a1-48ac-8f9b-d5631ee28a3b.png";
+const PIPELINE_MAP_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/0a4b8d21-0019-4c0d-97cc-f0ce9404c1e1.png";
+const FTA_SIGNING_IMG = "https://cdn.ezst.app/projects/57572f4b-f178-4399-8ac9-4a5e84e5cc1f/bucket/4b0442f1-a32f-4ef0-ad45-4b8257bb43de.png";
 
 const timelineEvents = [
   { year: "1947", title: "Leduc No. 1 Discovery", desc: "Imperial Oil strikes oil near Leduc, Alberta — igniting Canada's modern oil era.", color: "#D4A017" },
@@ -27,7 +29,7 @@ const sections = [
     artifact: { name: "Original Trans-Canada Pipeline Map", year: "1956" },
     question: "How have pipeline goals changed from the 1950s to today?",
     icon: "GitBranch",
-    img: HERO_IMG,
+    img: PIPELINE_MAP_IMG,
   },
   {
     id: "crisis",
@@ -60,10 +62,10 @@ const sections = [
     subtitle: "Black Gold on the World Stage",
     overview: "Oil exports helped integrate Canada into the global economy and strengthened trade relationships with major partners, from the United States to emerging Asian markets.",
     events: ["Leduc No. 1 Discovery", "Athabasca Oil Sands", "Alberta Oil Exports to the U.S.", "FTA → NAFTA → CUSMA", "Pacific Ports and Asian Markets"],
-    artifact: { name: "Western Examiner front page — Leduc Discovery", year: "1947" },
+    artifact: { name: "Mulroney & Reagan signing the Free Trade Agreement", year: "1988" },
     question: "Why was oil important to Canada's international influence?",
     icon: "Globe",
-    img: HERO_IMG,
+    img: FTA_SIGNING_IMG,
   },
   {
     id: "indigenous",
